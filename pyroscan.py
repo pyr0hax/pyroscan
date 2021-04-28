@@ -39,7 +39,7 @@ def main():
             __/ |                   ______                          
            |___/                   |______|                         
     """)
-    parser = optparse.OptionParser('Usage of program: ' + '-H < target host > -p < target port >.')
+    parser = optparse.OptionParser('Usage of program: ' + '-H < target host > -p < target port >. Example: ./pyroscan.py -H server.example.com -p 21,22,25,80')
     parser.add_option('-H', dest='tgtHost', type='string', help='Specify target host.')
     parser.add_option('-p', dest='tgtPort', type='string', help='Specify target ports seperated by comma.')
     (options, args) = parser.parse_args()
