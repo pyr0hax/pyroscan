@@ -1,2 +1,14 @@
 # pyroscan
-Simpe port scanner written in python. 
+
+  _____            _____     ___             _    _          __   __
+ |  __ \          |  __ \   / _ \           | |  | |         \ \ / /
+ | |__) |  _   _  | |__) | | | | |          | |__| |   __ _   \ V / 
+ |  ___/  | | | | |  _  /  | | | |          |  __  |  / _` |   > <  
+ | |      | |_| | | | \ \  | |_| |          | |  | | | (_| |  / . \ 
+ |_|       \__, | |_|  \_\  \___/           |_|  |_|  \__,_| /_/ \_\
+            __/ |                   ______                          
+           |___/                   |______|                         
+
+## Simpe port scanner written in python. 
+## Usage of program: -H < target host > -p < target port >
+
