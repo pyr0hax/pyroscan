@@ -3,7 +3,6 @@
 from socket import *
 import optparse
 from threading import *
-
 def connScan(tgtHost, tgtPort):
     try:
         sock = socket(AF_INET, SOCK_STREAM)
@@ -40,9 +39,9 @@ def main():
             __/ |                   ______                          
            |___/                   |______|                         
     """)
-    parser = optparse.OptionParser('Usage of program: ' + '-H < target host > -p <target port>')
-    parser.add_option('-H', dest='tgtHost', type='string', help='Specify target host')
-    parser.add_option('-p', dest='tgtPort', type='string', help='Specify target ports seperated by comma')
+    parser = optparse.OptionParser('Usage of program: ' + '-H < target host > -p < target port >.')
+    parser.add_option('-H', dest='tgtHost', type='string', help='Specify target host.')
+    parser.add_option('-p', dest='tgtPort', type='string', help='Specify target ports seperated by comma.')
     (options, args) = parser.parse_args()
     tgtHost = options.tgtHost
     tgtPorts = str(options.tgtPort).split(',')
