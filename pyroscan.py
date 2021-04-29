@@ -3,6 +3,7 @@
 from socket import *
 import optparse
 from threading import *
+
 def connScan(tgtHost, tgtPort):
     try:
         sock = socket(AF_INET, SOCK_STREAM)
