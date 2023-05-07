@@ -1,9 +1,16 @@
-# pyroscan
+# Pyroscan: A Simple Port Scanner Written in Python
 
-## Simpe port scanner written in python. 
-## Usage of program: -H < target host > -p < target port >
+Pyroscan is a user-friendly port scanning tool coded in Python. Its usage is simple: just enter the target host and port using the command `-H` for the host and `-p` for the port.
 
-### If you are running Linux and the script won't execute. Please use the following command:
-#### sudo chmod +x ./pyroscan.py
+### Usage
 
-#### Remember that you have to use your Sudo password if you are not root.
+  python pyroscan.py -H <target host> -p <target port>
+
+### Troubleshooting
+If you are running Linux and the script won't execute, please use the following command:
+
+  sudo chmod +x ./pyroscan.py
+
+Note that if you are not the root user, you will need to enter your sudo password.
+
+Stay secure and enjoy using Pyroscan for all your port scanning needs!
